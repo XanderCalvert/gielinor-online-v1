@@ -1,0 +1,39 @@
+.skillselect {
+    background-color: #322f3d;
+}
+
+.skillselect__link {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 2px #59405c;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.skillselect__link>span {
+    transition: transform 200ms ease-in;
+}
+
+.skillselect__link>span:hover {
+    transform: scale(1.05);
+}
+
+.skillselect__f2p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.skillselect__p2p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-right: 10%;
+    padding-left: 10%;
+}

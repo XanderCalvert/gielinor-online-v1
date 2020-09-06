@@ -1,0 +1,26 @@
+.header {
+    background-color: #4b5d67;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    flex: 1;
+    justify-content: space-evenly;
+
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 2px #59405c;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 1rem;
+    transition: transform 200ms ease-in;
+}
+
+.header__link:hover {
+    transform: scale(1.05);
+}

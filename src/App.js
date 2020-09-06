@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header";
-import Footer from "./Footer";
+import Footer from "./Footer.jsx";
 import Home from "./Home";
 import About from "./About";
 import Banner from "./Banner";
 import SkillCalc from "./SkillCalc";
 import SkillSelect from "./SkillSelect";
+import Upcoming from "./Upcoming";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -23,18 +24,17 @@ function App() {
 						{/* Skill Calculator */}
 						<SkillCalc />
 					</Route>
-				</Switch>
-				{/* About Route */}
-				<Switch>
+					{/* Upcoming Fetures Route */}
+					<Route path="/upcoming-fetures">
+						{/* Home Page */}
+						<Upcoming />
+					</Route>
+					{/* About Route */}
 					<Route path="/about">
-						{/* Banner */}
-						<Banner />
 						{/* Home Page */}
 						<About />
 					</Route>
-				</Switch>
-				{/* Home Route */}
-				<Switch>
+					{/* Home Route */}
 					<Route path="/">
 						{/* Banner */}
 						<Banner />
